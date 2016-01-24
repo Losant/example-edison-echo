@@ -1,7 +1,7 @@
-# Structure Lab: Amazon Echo Clone with IBM Watson and Intel Edison
+# How to Build an Amazon Echo Clone with IBM Watson and Intel Edison
 
 ## Overview
-In this lab project we will create an Amazon Echo clone based on the Intel Edison hardware and IBM Watson platform. During the lab we will covering the following topics:
+In this project we will create an Amazon Echo clone based on the Intel Edison hardware and IBM Watson platform. During the lab we will covering the following topics:
   * Capturing audio with a USB microphone.
   * Sending audio to a Bluetooth speaker.
   * Using [Johnny-Five](https://johnny-five.io) to interface with the Edison's IO.
