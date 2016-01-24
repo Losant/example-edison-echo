@@ -1,0 +1,17 @@
+{
+  "name": "example-edison-echo",
+  "description": "Amazon Echo Clone with IBM Watson and Intel Edison",
+  "version": "1.0.0",
+  "main": "main.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "johnny-five": "~0.9.18",
+    "edison-io": "~0.9.1",
+    "async": "~1.5.2",
+    "watson-developer-cloud": "~1.2.1",
+    "request": "~2.67.0",
+    "numstr": "~1.0.1"
+  }
+}

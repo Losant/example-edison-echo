@@ -1,0 +1,5 @@
+node_modules
+xdk
+*.xdk
+*.xdke
+.DS_Store
