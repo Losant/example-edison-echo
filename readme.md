@@ -344,6 +344,12 @@ Deploy the code to your Edison and run it. Wait a few seconds for the app to ini
 
 You'll find it's great at handling single words and simple phrases. You can also use it to do simple math problems by starting your phrase with "calculate", like "calculate five plus five."
 
-Below you'll find a list of resources used while making this project. I encourage you to take a look at them to learn a little more about the technologies used. You can also find all the code for this project at https://github.com/GetStructure/example-edison-echo.
+Below you'll find a list of additional resources used while making this project but not linked to above. I encourage you to take a look at them to learn a little more about the technologies used. You can also find all the code for this project at https://github.com/GetStructure/example-edison-echo.
 
 Enjoy!
+
+## Additional Resources
+  * [Structure IoT Blog](http://www.getstructure.io/blog/)
+  * [Intel Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
+  * [Intel Edison Audio Setup Guide](http://download.intel.com/support/edison/sb/edisonaudio_332434001.pdf)
+  * [PLAY AUDIO FROM YOUR INTEL® EDISON VIA BLUETOOTH* USING ADVANCED AUDIO DISTRIBUTION PROFILE (A2DP)](https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile)
