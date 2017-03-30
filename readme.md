@@ -15,7 +15,7 @@ What you'll need to complete this project:
   * An IBM Bluemix Account - [Bluemix Registration](https://console.ng.bluemix.net/registration/)
   * A working knowledge of [Node.js](https://nodejs.org)
 
-If you haven't already done so, you'll need to setup your Edison and get the latest firmware flashed. You can follow our quick article on [Getting Started with the Intel Edison](http://www.getstructure.io/blog/getting-started-with-the-intel-edison) or check out [Intel's Getting Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started).
+If you haven't already done so, you'll need to setup your Edison and get the latest firmware flashed. You can follow our quick article on [Getting Started with the Intel Edison](https://www.losant.com/blog/getting-started-with-the-intel-edison) or check out [Intel's Getting Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started).
 
 NOTE: I'm using the [Intel XDK IoT Edition](https://software.intel.com/en-us/iot/software/ide/intel-xdk-iot-edition) because it makes debugging and uploading code to the board very easy. To learn more about the IDE and how to get started using it check out [Getting Started with the Intel XDK IoT Edition](https://software.intel.com/en-us/getting-started-with-the-intel-xdk-iot-edition). It is not required for this project though.
 
@@ -247,7 +247,7 @@ board.on('ready', function() {
 ```
 
 #### Main
-We now have all the supporting pieces so let's put together the main application flow. When main is run, we first play a chime sound to let the user know we are listening using the `playWav` defined earlier. You can find download the wav file I used from [the projects repo](https://github.com/GetStructure/example-edison-echo). We then listen for a command, perform the search, and play the results which we will all look at next. 
+We now have all the supporting pieces so let's put together the main application flow. When main is run, we first play a chime sound to let the user know we are listening using the `playWav` defined earlier. You can find download the wav file I used from [the projects repo](https://github.com/losant/example-edison-echo). We then listen for a command, perform the search, and play the results which we will all look at next.
 
 Last we handle any errors that may have happened and get ready to do it all again.
 
@@ -344,12 +344,12 @@ Deploy the code to your Edison and run it. Wait a few seconds for the app to ini
 
 You'll find it's great at handling single words and simple phrases. You can also use it to do simple math problems by starting your phrase with "calculate", like "calculate five plus five."
 
-Below you'll find a list of additional resources used while making this project but not linked to above. I encourage you to take a look at them to learn a little more about the technologies used. You can also find all the code for this project at https://github.com/GetStructure/example-edison-echo.
+Below you'll find a list of additional resources used while making this project but not linked to above. I encourage you to take a look at them to learn a little more about the technologies used. You can also find all the code for this project at https://github.com/losant/example-edison-echo.
 
 Enjoy!
 
 ## Additional Resources
-  * [Structure IoT Blog](http://www.getstructure.io/blog/)
+  * [Losant Blog](https://www.losant.com/blog/)
   * [Intel Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
   * [Intel Edison Audio Setup Guide](http://download.intel.com/support/edison/sb/edisonaudio_332434001.pdf)
   * [PLAY AUDIO FROM YOUR INTEL® EDISON VIA BLUETOOTH* USING ADVANCED AUDIO DISTRIBUTION PROFILE (A2DP)](https://software.intel.com/en-us/articles/play-audio-from-your-intel-edison-via-bluetooth-using-advanced-audio-distribution-profile)
